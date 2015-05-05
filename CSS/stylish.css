@@ -89,8 +89,8 @@
 }
 .blackbottom {
 	background-color: black;
-	height: 100px;
-	padding-top: 30px;
+	height: 105px;
+	padding-top: 25px;
 }
 .textbox3 {
 	text-align: center;
@@ -98,11 +98,12 @@
 	background-color: black;
 	font-size: 10px;
 	font-family: sans-serif;
-	margin-bottom: 20px
+	margin-bottom: 20px;
+	word-spacing: 15px;
 }
 .whitebottom {
 	background-color: white;
-	height: 20px;
+	height: 25px;
 	margin: 0 auto;
 	width: 150px;
 }
