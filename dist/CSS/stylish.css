@@ -11,7 +11,7 @@
 	height: 40px;
 	width: 40px;
 	margin-top: 5px;
-	background-image: url("file://localhost/users/nathanielfelps/downloads/logo.png");
+	background-image: url("images/logo.png");
 	background-size: 40px 40px;
 
 }
@@ -58,7 +58,7 @@
 	margin-top: 0px;
 	padding-top: 150px;
 	padding-bottom: 110px;
-	background-image: url("file://localhost/users/nathanielfelps/downloads/crowd.jpg");
+	background-image: url("images/crowd.jpg");
 	background-size: 600px;
 }
 .textbox1 {
@@ -97,7 +97,7 @@
 	width: 50px;
 	margin-top: 225px;
 	margin-bottom: 150px;
-	background-image: url("file://localhost/users/nathanielfelps/downloads/scrollarrow.png");
+	background-image: url("images/scrollarrow.png");
 	background-size: 20px 20px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -122,7 +122,7 @@
 	background-size: 45px 55px;
 	float: left;
 	clear: left;
-	background-image:url("file://localhost/users/nathanielfelps/downloads/tablet.png");
+	background-image:url("images/tablet.png");
 }
 .weirdinnerbox2 {
 	width: 45px;
@@ -130,14 +130,14 @@
 	background-size: 45px 55px;
 	float: left;
 	clear: left;
-	background-image:url("file://localhost/users/nathanielfelps/downloads/newspaper.png");
+	background-image:url("images/newspaper.png");
 }
 .weirdinnerbox3 {
 	width: 45px;
 	height: 55px;
 	float: left;
 	clear: left;
-	background-image:url("file://localhost/users/nathanielfelps/downloads/paint-brush.png");
+	background-image:url("images/paint-brush.png");
 	background-size: 45px 55px;
 }
 .weirdinnerbar {
@@ -193,7 +193,7 @@
 	margin: 0 auto;
 	background: lightgray;
 	width: 65px;
-	background-image:url("file://localhost/users/nathanielfelps/downloads/lightbulb.png");
+	background-image:url("images/lightbulb.png");
 	background-size: 40px 40px;
 	border-radius: 32.5px;
 	background-repeat: no-repeat;
@@ -205,7 +205,7 @@
 	margin: 0 auto;
 	background: lightgray;
 	width: 65px;
-	background-image:url("file://localhost/users/nathanielfelps/downloads/cloud.png");
+	background-image:url("images/cloud.png");
 	background-size: 40px 40px;
 	border-radius: 32.5px;
 	background-repeat: no-repeat;
@@ -217,7 +217,7 @@
 	margin: 0 auto;
 	background: lightgray;
 	width: 65px;
-	background-image:url("file://localhost/users/nathanielfelps/downloads/code.png");
+	background-image:url("images/code.png");
 	background-size: 40px 40px;
 	border-radius: 32.5px;
 	background-repeat: no-repeat;
@@ -229,7 +229,7 @@
 	margin: 0 auto;
 	background: lightgray;
 	width: 65px;
-	background-image:url("file://localhost/users/nathanielfelps/downloads/comments.png");
+	background-image:url("images/comments.png");
 	background-size: 40px 40px;
 	border-radius: 32.5px;
 	background-repeat: no-repeat;
@@ -241,7 +241,7 @@
 	margin: 0 auto;
 	background: lightgray;
 	width: 65px;
-	background-image:url("file://localhost/users/nathanielfelps/downloads/gift.png");
+	background-image:url("images/gift.png");
 	background-size: 40px 40px;
 	border-radius: 32.5px;
 	background-repeat: no-repeat;
@@ -253,7 +253,7 @@
 	margin: 0 auto;
 	background: lightgray;
 	width: 65px;
-	background-image:url("file://localhost/users/nathanielfelps/downloads/globe.png");
+	background-image:url("images/globe.png");
 	background-size: 40px 40px;
 	border-radius: 32.5px;
 	background-repeat: no-repeat;
@@ -337,6 +337,6 @@
 	height: 25px;
 	margin: 0 auto;
 	width: 150px;
-	background-image: url("file://localhost/users/nathanielfelps/downloads/automattic.png");
+	background-image: url("images/automattic.png");
 
 }
