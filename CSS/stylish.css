@@ -94,6 +94,7 @@
 	width: 543px;
 	position: right;
 	display: inline;
+	float: right;
 }
 .grayboxes {
 	height: 240px;
