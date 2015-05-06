@@ -77,24 +77,26 @@
 	margin:0 auto;
 	margin-top: 31px;
 	padding-right: 3px;
+	
 }
 .barofseparation {
 	width: 45px;
 	height: 12px;
-	margin-right: 12px;
+	margin-right: 0px;
+	float: left;
+	
 }
 .weirdinnerbox {
 	width: 45px;
 	height: 55px;
 	background-color: #4E5A6B;
+	float: left;
+	clear: left;
 }
 .weirdinnerbar {
 	height: 55px;
 	background-color: #4E5A6B;
-	width: 543px;
-	position: right;
-	display: inline;
-	float: right;
+	margin-left: 55px;
 }
 .grayboxes {
 	height: 240px;
@@ -140,6 +142,16 @@
 	font-family: sans-serif;
 	margin-bottom: 20px;
 	word-spacing: 15px;
+	margin-left: 0 auto;
+}
+.innertextbox {
+	text-align: center;
+	color: white;
+	background-color: black;
+	font-size: 10px;
+	font-family: sans-serif;
+	margin-bottom: 20px;
+	word-spacing: normal;
 }
 .whitebottom {
 	background-color: white;
