@@ -1,3 +1,9 @@
+body {
+	background-image: url("images/crowd.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+}
 .topbarhigh {
 	background-color: #268DBC;
 	height: 50px;
@@ -33,7 +39,7 @@
 	font-family: sans-serif;
 }
 #loginbox {
-	background-color: #0A5C93;
+	background-color: #0073A5;
 	height: auto;
 	margin-bottom: 0px;
 	color: white;
@@ -45,21 +51,22 @@
 	padding-left: 15px;
 	padding-right: 15px;
 }
+#loginbox:hover {
+	background-color: #00AADC;
+}
 .lightback {
 	background-color: #E2ECF3;
-	padding-bottom: 40px;
+	padding-bottom: 60px;
 	padding-right: 2px;
 	padding-left: 2px;
 	padding-top: 2px;
 }
 .navyblock {
-	background-color: #27303F;
 	height: 850px;
 	margin-top: 0px;
 	padding-top: 150px;
 	padding-bottom: 110px;
-	background-image: url("images/crowd.jpg");
-	background-size: cover;
+	background: transparent;
 }
 .textbox1 {
 	text-align: center;
@@ -75,8 +82,8 @@
 	font-family: sans-serif;
 }
 .blueoutline {
-	outline-color: rgba(0,7,75, .6);
-	background-color: #1577B3;
+	outline-color: rgba(0,0,0, .4);
+	background-color: #1E8CBE;
 	outline-style: solid;
 	outline-width: 12px;
 	height: 37px;
@@ -88,7 +95,9 @@
 	font-size: 20px;
 	text-align: center;
 	padding-top: 13px;
-
+}
+.blueoutline:hover {
+	background-color: #00AADC;
 }
 .whitebox {
 	background: transparent;
@@ -109,6 +118,9 @@
 	margin:0 auto;
 	margin-top: 31px;
 	background: transparent;
+}
+.whitebars:hover {
+	background-color: rgba(0,0,0,.3)
 }
 .barofseparation {
 	width: 45px;
@@ -163,29 +175,57 @@
 	font-family: sans-serif;
 	margin-top: 20px;
 	text-align: center;
+	font-weight: 100;
+	line-height: 30px
 }
-.lighttextbox2 {
-	color: #192139;
-	font-size: 22px;
-	font-family: sans-serif;
-	margin-top: 8px;
-	text-align: center;
-}
-.grayboxes {
-	height: 210px;
-	padding-top: 40px;
+.containerbox {
+	padding-top: 30px;
 	padding-right: 10px;
 	padding-left: 10px;
 	margin-bottom: 0px;
-	background-color: lightgray;
+	padding-bottom: 30px;
+	background-color: rgba(192,192,192,.7);
+	margin-left: 0px;
+	margin-right: 0px;
 }
 .whiteboxes {
-	height:160px;
 	background-color: white;
 	padding-top: 20px;
 	padding-bottom: 50px;
 	padding-left: 20px;
 	padding-right:  20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 0 auto;
+	margin-left: 0 auto;
+}
+@media(min-width: 640px) {
+	.whiteboxes {
+		display: inline-block;
+		overflow: hidden;
+		margin-bottom: 0px;
+		float: left;
+		margin-right: 15px;
+		height: 200px;
+		margin-left: auto;
+	}
+	.whiteboxes {
+		margin-right: 20px;
+		width: 40%;
+		margin-left: 0 auto;
+	}
+	.containerbox {
+		overflow: hidden;
+		padding-bottom: 10px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.yesmargin {
+		margin-right: 0px;
+	}
+}
+@media(min-width: 940px) {
+
 }
 .innerbluebox1 {
 	background-color: #BBC8CF;
@@ -276,14 +316,6 @@
 	font-family: sans-serif;
 	line-height: 25px;
 }
-.grayboxbottom {
-	height: 240px;
-	padding-top: 40px;
-	padding-right: 10px;
-	padding-left: 10px;
-	padding-bottom: 30px;
-	background-color: lightgray;
-}
 .lightbluebottom {
 	background-color: #E2ECF3;
 	height: 75px;
@@ -298,7 +330,7 @@
 	margin-bottom: 45px;
 }
 .blueinner {
-	background-color: #1577B3;
+	background-color: #1E8CBE;
 	height: 28px;
 	width: 200px;
 	margin: 0 auto;
@@ -307,6 +339,9 @@
 	font-size: 22px;
 	padding-top: 12px;
 	padding-bottom: 10px;
+}
+.blueinner:hover {
+	background-color: #00AADC;
 }
 .blackbottom {
 	background-color: black;
@@ -338,5 +373,4 @@
 	margin: 0 auto;
 	width: 150px;
 	background-image: url("images/automattic.png");
-
 }
