@@ -105,7 +105,7 @@ body {
 	margin: 0 auto;
 	width: 50px;
 	margin-top: 225px;
-	margin-bottom: 150px;
+	margin-bottom: 161px;
 	background-image: url("images/scrollarrow.png");
 	background-size: 20px 20px;
 	background-position: center;
@@ -114,20 +114,18 @@ body {
 .whitebars {
 	height: 67px;
 	background-color: white;
-	width: 300px;
+	width: 250px;
 	margin:0 auto;
-	margin-top: 31px;
+	margin-top: 20px;
 	background: transparent;
+	padding-left: 10px;
+	padding-bottom: 10px;
 }
 .whitebars:hover {
 	background-color: rgba(0,0,0,.3)
 }
-.barofseparation {
-	width: 45px;
-	height: 12px;
-	margin-right: 0px;
-	float: left;
-}
+/*.barofseparation {  was neccessary for previous version, no longer needed
+}*/
 .weirdinnerbox1 {
 	width: 45px;
 	height: 55px;
@@ -135,6 +133,7 @@ body {
 	float: left;
 	clear: left;
 	background-image:url("images/tablet.png");
+	margin-top: 5px;
 }
 .weirdinnerbox2 {
 	width: 45px;
@@ -143,6 +142,7 @@ body {
 	float: left;
 	clear: left;
 	background-image:url("images/newspaper.png");
+	margin-top: 5px;
 }
 .weirdinnerbox3 {
 	width: 45px;
@@ -151,10 +151,11 @@ body {
 	clear: left;
 	background-image:url("images/paint-brush.png");
 	background-size: 45px 55px;
+	margin-top: 5px;
 }
 .weirdinnerbar {
 	height: 55px;
-	margin-left: 55px;
+	margin-left:55px;
 	color: white;
 	font-family: sans-serif;
 	padding-top: 12px;
@@ -212,7 +213,7 @@ body {
 	.whiteboxes {
 		margin-right: 20px;
 		width: 40%;
-		margin-left: 0 auto;
+		margin-left: auto;
 	}
 	.containerbox {
 		overflow: hidden;
