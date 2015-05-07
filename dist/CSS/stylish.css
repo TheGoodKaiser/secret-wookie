@@ -59,7 +59,7 @@
 	padding-top: 150px;
 	padding-bottom: 110px;
 	background-image: url("images/crowd.jpg");
-	background-size: 600px;
+	background-size: cover;
 }
 .textbox1 {
 	text-align: center;
@@ -75,7 +75,7 @@
 	font-family: sans-serif;
 }
 .blueoutline {
-	outline-color: rgba(2,10,68, .5);
+	outline-color: rgba(0,7,75, .6);
 	background-color: #1577B3;
 	outline-style: solid;
 	outline-width: 12px;
