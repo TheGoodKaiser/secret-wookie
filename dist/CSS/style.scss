@@ -1,0 +1,8 @@
+$primary-color: blue;
+
+.foo {
+	.bar {
+
+		background: $primary-color;
+	}
+}
