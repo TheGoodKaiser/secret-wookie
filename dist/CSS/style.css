@@ -1,6 +1,5 @@
 body {
-  margin-top: 0px;
-  margin-bottom: 0px; }
+  margin: 0px; }
 
 .top-logo {
   height: 35px;
@@ -32,13 +31,27 @@ body {
 
 .bg-image {
   background-image: url("images/background.jpg");
-  height: 300px;
-  margin-bottom: 30px; }
+  height: 160px;
+  margin-bottom: 30px;
+  font-family: sans-serif;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding-top: 100px; }
+
+.container-box {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-bottom: 30px; }
 
 .pricings {
   text-align: center;
   margin-bottom: 40px;
-  margin-top: 40px; }
+  margin-top: 40px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto; }
   .pricings .personal {
     background-color: #539154;
     padding-bottom: 30px;
@@ -97,8 +110,11 @@ body {
   margin: auto auto;
   border-radius: 40px; }
 
+.benefits-box {
+  margin-left: 30px;
+  margin-right: 30px; }
+
 .benefits-header {
-  margin-top: 40px;
   color: black;
   font-size: 20px;
   letter-spacing: 7px;
@@ -108,7 +124,8 @@ body {
 .benefits {
   font-family: sans-serif;
   color: #526066;
-  line-height: 25px; }
+  line-height: 25px;
+  padding-bottom: 45px; }
 
 .end {
   background: black;
@@ -117,7 +134,29 @@ body {
   padding: 30px; }
   .end div {
     border-color: black;
-    border-left-width: 10000px;
-    border-right-width: 10000px; }
+    text-align: center; }
   .end a {
     color: white; }
+
+@media (min-width: 720px) {
+  .pricings {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 30%; }
+  .container-box {
+    text-align: center; }
+  .benefits-box {
+    text-align: center;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45px; }
+    .benefits-box .these-float {
+      display: inline-block;
+      margin-left: 20px; }
+    .benefits-box div {
+      width: 250px;
+      display: inline-block;
+      text-align: left;
+      vertical-align: top; } }
